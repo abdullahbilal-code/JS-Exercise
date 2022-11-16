@@ -30,7 +30,7 @@
 //  3- poor 
 //  0- fail  
 
-var marks = 100
+var marks = 10
 
 if (marks == 10) {
     console.log('Amazing..!')
