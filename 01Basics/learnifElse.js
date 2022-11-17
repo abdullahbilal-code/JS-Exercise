@@ -24,26 +24,27 @@
 // }
 
 //  Grade Problem
-//  Students Marks 
+//  Students Marks
 //  10- Amazing
-//  5- Good 
-//  3- poor 
-//  0- fail  
+//  5- Good
+//  3- poor
+//  0- fail
 
-var marks = 10
+// var marks = 10
 
-if (marks == 10) {
-    console.log('Amazing..!')
-}
-else if (marks < 10 && marks >= 5) {
-    console.log('Good...!')
-}
-else if (marks < 5 && marks >= 3) {
-    console.log('Poor..!')
-}
-else if (marks = 0) {
-    console.log('FAIL..!')
-}
-else {
-    console.log('Out of Scope')
-}
+// if (marks == 10) {
+//     console.log('Amazing..!')
+// }
+// else if (marks < 10 && marks >= 5) {
+//     console.log('Good...!')
+// }
+// else if (marks < 5 && marks >= 3) {
+//     console.log('Poor..!')
+// }
+// else if (marks = 0) {
+//     console.log('FAIL..!')
+// }
+// else {
+//     console.log('Out of Scope')
+// }
+
