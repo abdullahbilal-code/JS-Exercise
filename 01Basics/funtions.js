@@ -20,3 +20,13 @@ let sayHello = function (name) {
 // let result = myAdder(3, 5)
 // console.log('Your Marks out 0f 10 is ' + result); 
 
+let myMultiplier = function (num1, num2) {
+    return num1 * num2;
+
+}
+
+let guestUser = function (name = 'unKnown', courseCount = 0) {
+    return 'Hello ' + name + ' your course count is : ' + courseCount
+}
+
+console.log(guestUser('John', 2));
