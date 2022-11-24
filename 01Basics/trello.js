@@ -31,6 +31,7 @@
 
 // }
 
+
 // const input = windows.prompt("What's your name ?");
 const input = prompt("What's your name?");
 alert(`Your name is ${input}`);
