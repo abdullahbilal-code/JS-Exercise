@@ -32,6 +32,28 @@
 // }
 
 
-// const input = windows.prompt("What's your name ?");
-const input = prompt("What's your name?");
-alert(`Your name is ${input}`);
+//const input = windows.prompt("What's your name ?");
+const input = window.prompt("What's your Marks?");
+
+if (input >= 90) {
+    alert('You got Grade A')
+}
+else if (input >= 80) {
+    alert('You got Grade B')
+}
+else if (input >= 70) {
+    alert('You got Grade C')
+}
+else if (input >= 60) {
+    alert('You got Grade D')
+}
+else if (input >= 50) {
+    alert('You got Grade E')
+}
+else if (input < 50) {
+    alert('You got Grade F')
+}
+else {
+    alert('Your Input is Invalid')
+}
+
