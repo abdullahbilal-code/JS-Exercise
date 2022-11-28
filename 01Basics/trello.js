@@ -1,4 +1,4 @@
-// const days = ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
+//const days = ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
 
 //Start loop from 1st Index
 // for (let index = 0; index <= days.length - 1; index++) {
@@ -33,27 +33,37 @@
 
 
 //const input = windows.prompt("What's your name ?");
-const input = window.prompt("What's your Marks?");
+// const input = window.prompt("What's your Marks?");
 
-if (input >= 90) {
-    alert('You got Grade A')
-}
-else if (input >= 80) {
-    alert('You got Grade B')
-}
-else if (input >= 70) {
-    alert('You got Grade C')
-}
-else if (input >= 60) {
-    alert('You got Grade D')
-}
-else if (input >= 50) {
-    alert('You got Grade E')
-}
-else if (input < 50) {
-    alert('You got Grade F')
-}
-else {
-    alert('Your Input is Invalid')
-}
+// if (input >= 90) {
+//     alert('You got Grade A')
+// }
+// else if (input >= 80) {
+//     alert('You got Grade B')
+// }
+// else if (input >= 70) {
+//     alert('You got Grade C')
+// }
+// else if (input >= 60) {
+//     alert('You got Grade D')
+// }
+// else if (input >= 50) {
+//     alert('You got Grade E')
+// }
+// else if (input < 50) {
+//     alert('You got Grade F')
+// }
+// else {
+//     alert('Your Input is Invalid')
+// }
 
+// const days = ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
+
+// console.log(days[0])
+
+const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
+
+months.forEach(function (month, index) {
+    console.log(`Start with ${index + 1} -- ${month}`)
+}
+)
