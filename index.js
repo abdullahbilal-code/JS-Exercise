@@ -23,3 +23,10 @@ console.log(person.name)
 //Bracket Notation
 person['name']='Abdullah Bilal'
 console.log(person);
+
+//Array
+
+let RGB = ['Red', 'Green', 'Blue']
+
+console.log(RGB[0]);
+
