@@ -31,5 +31,5 @@ rgbColors[3]='White'
 console.log(rgbColors);
 
 function welcome (){
-  console.log('Hello ! Abdullah'+'are you okay ?')
+  console.log('Hello ! Abdullah'+'are you okay ?');
 }
