@@ -29,7 +29,16 @@ console.log(person);
 let rgbColors = ['Red', 'Green', 'Blue'];
 rgbColors[3]='White'
 console.log(rgbColors);
-
-function welcome (){
-  console.log('Hello ! Abdullah'+'are you okay ?');
+//performing a Task
+function welcome (firstName, lastName){   //function declaration with parameters
+  console.log('Hello! '+  firstName + ' '+ lastName); //cantenation
 }
+
+welcome('Abdullah','Bilal'); // function calling with arguments
+// Calculating a value
+
+function square (number){
+    return number*number;
+}
+
+console.log(square(4));
