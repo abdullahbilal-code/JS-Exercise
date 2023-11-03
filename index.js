@@ -26,7 +26,10 @@ console.log(person);
 
 //Array
 
-let RGB = ['Red', 'Green', 'Blue']
+let rgbColors = ['Red', 'Green', 'Blue'];
+rgbColors[3]='White'
+console.log(rgbColors);
 
-console.log(RGB[0]);
-
+function welcome (){
+  console.log('Hello ! Abdullah'+'are you okay ?')
+}
