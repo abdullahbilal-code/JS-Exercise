@@ -48,3 +48,8 @@
 //     console.log('Out of Scope')
 // }
 
+const person = { name: "Abdullah" }
+
+person.name = "Bilal"
+
+console.log(person)
